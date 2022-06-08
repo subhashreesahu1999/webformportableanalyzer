@@ -1,0 +1,28 @@
+USE [Furnishing_Store]
+GO
+
+/****** Object:  Table [dbo].[contact]    Script Date: 2/27/2021 10:46:01 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[contact](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[name] [varchar](50) NOT NULL,
+	[email] [varchar](50) NOT NULL,
+	[phone] [varchar](10) NOT NULL,
+	[message] [varchar](50) NOT NULL,
+	[time] [datetime] NOT NULL,
+ CONSTRAINT [PK_contact] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[contact] ADD  DEFAULT (getdate()) FOR [time]
+GO
+
+

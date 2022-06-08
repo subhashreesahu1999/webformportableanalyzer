@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Admin</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/admin.css"/>
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <!--bootstrap 4-->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <style>
+        .b{
+            font-weight:700;
+            font-size:20px;
+        }
+        </style>
+ 
+
+        </head>
+
+        <body>
+                  <div class="page-wrapper chiller-theme toggled">
+                    <a id="show-sidebar" class="btn btn-sm btn-dark" href="#">
+                      <i class="fas fa-bars"></i>
+                    </a>
+                    <nav id="sidebar" class="sidebar-wrapper">
+                      <div class="sidebar-content">
+                        <div class="sidebar-brand">
+                          <a href="#">Welcome Admin!</a>
+                          <div id="close-sidebar">
+                            <i class="fas fa-times"></i>
+                          </div>
+                        </div>
+                        <div class="sidebar-header">
+                          <div class="user-pic">
+                            <img class="img-responsive img-rounded" src="../images/admin.jpg"
+                              alt="User picture">
+                          </div>
+                          <div class="user-info">
+                            <span class="user-name">Admin
+                              <strong>Shrestha</strong>
+                            </span>
+                            <span class="user-role">Administrator</span>
+                            <span class="user-status">
+                              <i class="fa fa-circle"></i>
+                              <span>Online</span>
+                            </span>
+                          </div>
+                        </div>
+                        <!-- sidebar-header  -->
+                        <div class="sidebar-search">
+                          <div>
+                            <div class="input-group">
+                              <input type="text" class="form-control search-menu" placeholder="Search...">
+                              <div class="input-group-append">
+                                <span class="input-group-text">
+                                  <i class="fa fa-search" aria-hidden="true"></i>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- sidebar-search  -->
+                        <div class="sidebar-menu">
+                          <ul>
+                            <li class="header-menu">
+                              <span>General</span>
+                            </li>
+                            <li class="sidebar-dropdown">
+                              <a href="#">
+                                <i class="fa fa-tachometer-alt"></i>
+                                <span style="color:white">Dashboard</span>
+                                <!--
+                                  side bagadegs
+                                <span class="badge badge-pill badge-warning">New</span>
+                                <span class="badge badge-pill badge-success">Pro</span>
+                                <span class="badge badge-pill badge-danger">3</span>-->
+                              </a>
+                              <div class="sidebar-submenu">
+                                <ul>
+                                  <li>
+                                    <a href="#">View User's
+                                      
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="#">View Products</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">View Total Sells</a>
+                                  </li>
+                                  
+                                </ul>
+                              </div>
+                            </li>
+                            <li class="sidebar-dropdown">
+                              <a href="#">
+                                <i class="fa fa-shopping-cart"></i>
+                                <span>E-commerce</span>
+                                
+                              </a>
+                              <div class="sidebar-submenu">
+                                <ul>
+                                <li>
+                                    <a href="#">Add Products</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">Manage Products</a>
+                                  </li>
+                                  
+                                  <li>
+                                    <a href="#">Manage Users</a>
+                                  </li>
+                                  
+                                </ul>
+                              </div>
+                            </li>
+                           
+    
+                          </ul>
+                        </div>
+                        <!-- sidebar-menu  -->
+                      </div>
+                      <!-- sidebar-content  -->
+                    <div class="sidebar-footer">
+                      <!--<a href="#">
+                        <i class="fa fa-bell"></i>
+                        <span class="badge badge-pill badge-warning notification">3</span>
+                      </a>
+                      <a href="#">
+                        <i class="fa fa-envelope"></i>
+                        <span class="badge badge-pill badge-success notification">7</span>
+                      </a>-->
+                      <a href="#">
+                        <i class="fa fa-cog"></i>
+                        <span class="badge-sonar"></span>
+                      </a>
+                      <a href="#">
+                        <i class="fa fa-power-off"></i>
+                      </a>
+                    </div>
+                  </nav>
+                  
+          <!-- sidebar-wrapper  -->
+          <main class="page-content">
+            <div class="container-fluid">
+              <span style="justify-content:left; color:green; font-size:20px;">Total Products Available :</span>
+              <hr>
+                <!--<div class="text-center" >
+                    <div class="row " style="justify-content:center">
+                    <div class="col-md-3 col-12 ">
+            <div class="card">
+                <div class="card-body"> <img class="img rck" src="https://i.imgur.com/rG3CGn3.png" />
+                    <div class="card-title"> Add Sofa Items </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class=" col-md-3 col-12 ">
+            <div class="card">
+                <div class="card-body"> <img class="img rck" src="https://i.imgur.com/rG3CGn3.png" />
+                    <div class="card-title"> Add Bed Items </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-3 col-12 ">
+            <div class="card">
+                <div class="card-body"> <img class="img rck" src="https://i.imgur.com/rG3CGn3.png" />
+                    <div class="card-title"> Add Chair Items </div>
+                    
+                </div>
+            </div>
+        </div>
+                    </div>
+                    </div>-->
+
+
+
+                     <div class="card" style="margin: 10px; padding:25px;">
+                                <div class="card-title text-center">
+                                <h1>Add products</h1>
+                                </div>
+                                    <form >
+                            <div class="form-group">
+                                <label class="b">Category:</label>
+                                 <select name="category" class="form-control" id="exampleFormControlSelect1" >
+                                <option selected>Choose...</option>
+                                <option value="Bed">Bed</option>
+                                <option  value="Sofa">Sofa</option>
+                                <option  value="Chair">Chair</option>
+                                <option  value="Table">Table</option>
+                                <option  value="Others">Others</option>
+                                </select>
+                                
+                            </div>
+                            <div class="form-group">
+                                <label class="b">Name of product:</label>
+                                 <input type="text" class="form-control" placeholder="Name of product" name="name" aria-label="Name of product" >
+
+                            </div>
+
+                            <div class="form-group">
+                                <label class="b">Select Color:</label>
+                                <input type="color" name="color"/>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="b">Entry Date:</label>
+                            <input type="date" max="3000-12-31" 
+                                    min="1000-01-01" class="form-control" name="entry_date">
+                            </div>
+                            <div class="form-group">
+                                <label  class="b">Size :</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" name="remarks"></textarea>
+                            </div>
+                                
+                            <div class="form-group">
+                                <label  class="b">Material :</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" name="remarks"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label  class="b">Price :</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" name="remarks"></textarea>
+                            </div>
+                           
+                            <div class="form-group">
+                                <label  class="b">Features :</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" name="comments"></textarea>
+                            </div>
+                            <div class="text-center">
+                            <input type="submit" name="submit" class="btn btn-primary mb-2" value="Submit">
+                            
+                            </div>
+                            </form>
+                            <button class="btn btn-primary mb-2" onclick="window.location.href='http://testrakesh.000webhostapp.com/Vianet-bills/view.php';">
+                                Click Here to view records
+                                </button>
+                            </div>
+              
+            
+              <hr>
+
+               <!--footer-->
+               
+                <div class="row footer">
+                          
+                                <div class="col-sm-3 foot">
+                                    <h6>At a Glance</h6>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                        quis molestie lorem. Nunc pellentesque ipsum non turpis tincidunt, in pharetra diam fringilla.
+                                    </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </div>
+                                <div class="col-sm-3 foot">
+                                    <h6>Developers</h6>
+                                    <span>Bibek Karki<br>Pramod Sapkota<br>Rakesh Shrestha<br></span>
+                                </div>
+                                <div class="col-sm-3 foot">
+                                    <h6>Info</h6>
+                                    <span>
+                                    Shipping and Delivery<br>
+                                    Returns and Exchnages<br>
+                                    Terms, Conditions & Privacy
+                                </div>
+                                <div class="col-sm-3 foot">
+                                    <h6> Contact</h6>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                        quis molestie lorem. Nunc pellentesque ipsum non turpis tincidunt, in pharetra diam fringilla.
+                                    </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </div>
+                           
+            </div>
+            <div class="bg-grey py-4">
+            <div class="row px-3"> <p class="ml-4 ml-sm-5 mb-2">Copyright &copy; 2021. All rights reserved.</p>
+                <div class="social-contact ml-4 ml-sm-auto"><span class=" mr-4 ">Follow us on &nbsp;: </span> <span class="fa fa-facebook mr-4"></span> <span class="fa fa-google-plus mr-4 "></span> <span class="fa fa-linkedin mr-4 "></span> <span class="fa fa-twitter mr-4 mr-sm-5 "></span> </div>
+            </div>
+        </div>
+               
+                <!--end of footer-->
+    </div>
+  </main>
+  <!-- page-content" -->
+</div>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- page-wrapper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+   
+
+    <!--Jquery-->
+    <script>
+            jQuery(function ($) {
+
+                $(".sidebar-dropdown > a").click(function() {
+            $(".sidebar-submenu").slideUp(200);
+            if (
+                $(this)
+                .parent()
+                .hasClass("active")
+            ) {
+                $(".sidebar-dropdown").removeClass("active");
+                $(this)
+                .parent()
+                .removeClass("active");
+            } else {
+                $(".sidebar-dropdown").removeClass("active");
+                $(this)
+                .next(".sidebar-submenu")
+                .slideDown(200);
+                $(this)
+                .parent()
+                .addClass("active");
+            }
+            });
+
+            $("#close-sidebar").click(function() {
+            $(".page-wrapper").removeClass("toggled");
+            });
+            $("#show-sidebar").click(function() {
+            $(".page-wrapper").addClass("toggled");
+            });
+
+
+            
+            
+            });
+    </script>
+    
+</body>
+
+</html>

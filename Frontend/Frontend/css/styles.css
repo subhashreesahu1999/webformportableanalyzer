@@ -1,0 +1,195 @@
+body,html{
+    background-color: whitesmoke;
+    height: 100%;
+}
+
+.heads{
+    background-image: url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    margin: auto;
+    padding: 15px;
+}
+.top{
+    
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/*Search option css*/
+.has-search .form-control {
+    padding-left: 2.35rem;
+    width: 300px;
+    opacity: 0.5;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    opacity: 1;
+}
+/*End of search option css*/
+.checkout{
+    margin: auto;
+    padding-right: 2.35rem;
+}
+
+
+.nav-a{
+    margin-top: 4.4rem;
+    background-color: white;
+    border: 0.1rem;
+    border-style: solid none solid none;
+    border-color: grey;
+}
+.nav-word{
+    font: 24;
+    font-weight: 800;
+    color: black;
+}
+
+/*Slider*/
+.sld{
+    
+    margin:auto;
+    padding: 10px;
+    height: 550px;
+}
+.slider{
+    margin: auto;
+    padding: 40px;
+    height: 490px;
+}
+/*Slider end*/
+
+
+/*Gallery*/
+.gallery-block{padding-bottom: 60px; padding-top: 60px;}
+
+
+.gallery-block .heading h2{font-weight: bold;font-size: 1.4rem; text-transform: uppercase;}
+
+
+.gallery-block.cards-gallery .card{transition: 0.4s easy;}
+.gallery-block.cards-gallery .card img{box-shadow: 0px 2px 10px rgba(0,0,0,0.15);}
+.gallery-block.cards-gallery .card-body{text-align: center;}
+.gallery-block.cards-gallery .card-body p{font-size: 15px;}
+.gallery-block.cards-gallery a{color:#212529; }
+.gallery-block.cards-gallery a:hover{text-decoration: none;}
+.gallery-block.cards-gallery  .card{
+	margin-bottom: 30px;
+	box-shadow: 0px 2px 10px rgba(0,0,0,0.15);
+}
+
+@media (min-width: 576px) {
+
+	.gallery-block .transform-on-hover:hover {
+	    transform: translateY(-10px) scale(1.02);
+	    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important; 
+	}
+}
+/*end of gallery*/
+
+
+
+/*Slider 2*/
+
+
+/*End of slider 2*/
+
+
+/*footer*/
+.footer{
+    margin: auto;
+    background-color: gray;
+}
+
+.foot{
+    padding: 40px;
+}
+.foot h6{
+    padding: 5px;
+    font-size: large;
+    font-weight: 700;
+}
+/*footer*/
+
+
+
+
+
+
+/* about*/
+.about-us,.service,.login, .contact{
+    margin-top: 70px;
+    padding: 10px;;
+}
+.testimonial{
+    text-align: center;
+}
+.testimonial .pic{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.testimonial .pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.testimonial .testimonial-title{
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 600;
+    color: #0c4767;
+    margin: 0 0 70px 0;
+}
+.testimonial .testimonial-title small{
+    font-size: 15px;
+    font-weight: 600;
+    color: #787878;
+}
+.testimonial .description{
+    font-size: 14px;
+    color: #787878;
+    line-height: 27px;
+    position: relative;
+    margin: 0;
+}
+.testimonial .description:before{
+    content: "\f10d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 46%;
+    font-size: 20px;
+    color: #fa7921;
+    line-height:33px;
+    border: 2px solid #fa7921;
+}
+.owl-theme .owl-controls .owl-page span{
+    background: #fff;
+    border: 2px solid #0c4767;
+    opacity: 1;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls .owl-page:hover span{
+    border: 2px solid #fa7921;
+}
+
+/* End of about*/
+
